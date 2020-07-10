@@ -18,11 +18,16 @@ The library was downloaded here: https://github.com/GeospatialPython/pyshp
 2. Put all the relevant files of the 2nd shape in the location: "shapefiles/shape_b”
 3. Open main.py
 4. Modify line 110 (the 1st shape) and line 167 (the 2nd shape) to be the name of your file
-5. Press F5 to run the script
-6. The output file is “new_xy.data” storing the x and y coordinate of the shape after performing 2D affine transformation
+5. The distance between each adjacent sample vertices can be changed at line 125 (the 1st shape) and line 181 (the 2nd shape). The default is set as 1.
+6. Press F5 to run the script
+7. The output file is “new_xy.data” storing the x and y coordinate of the shape after performing 2D affine transformation
+8. Open shape.py
+9. Change the name you want (xxx.data) at line 9
+10. press F5 to run the script
+11. A file storing the geometric information of the new shape will be created.
 
 ## Notes
 1. The two shapes must be separately stored in .shp file
 2. The distance between each adjacent sample vertices can be changed at line 125 (the 1st shape) and line 181 (the 2nd shape). The default is set as 1.
 3. The name of output file (storing the x & y coordinates of the shape after coordinate transformation) can be modified at Line 332.
-4. Changing location path is not recommended.
+4. Changing the file savig path is not recommended.
