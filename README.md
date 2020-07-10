@@ -10,7 +10,7 @@ Instructed by Dr. Yan Wai-yeung
 This dissertation presents a new approach for the correlating land boundaries using shape context descriptor. Boundary correlation is one of the important steps in the land boundary re-establishment in Hong Kong. In the current practise, the consistency between two correlated boundaries is assessed by human interpretation. It is more likely a subjective approach. Therefore, I explore the use of shape context to correlate the boundaries in land records. It aims to assist the land surveyors for their interpretation. The boundary of the same lot in two land records can be identified and matched based on its geometry. A coordinate transformation model can be established using the matched vertices of the two boundaries. Least squares adjustment is used to estimate the model coefficients. Accuracy assessment of the result can be performed by Dice Similarity Coefficient (DSC).
 
 ## Folders
-* **code**: Python script for the shape context descriptor for correlating 
+* **code**: Python script for the shape context descriptor for correlating Land Boundaries
 * **paper**: The dissertation (in .pdf format)
 
 ## Installation
