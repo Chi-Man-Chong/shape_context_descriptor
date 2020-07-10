@@ -7,15 +7,16 @@ A computer vision algorithm used in my dissertation, which was submitted to the 
 Instructed by Dr. Yan Wai-yeung  
 
 ## Folders
-* **background**: Python script for the shape context descriptor for correlating 
-* **experiement**: 
-* **paper**: The dissertation (in .pdf format)
+* **numpy-master**: NumPy is the fundamental package needed for scientific computing with Python.
+https://github.com/numpy/numpy
+* **pyshp-master**: The Python Shapefile Library (PyShp) reads and writes ESRI Shapefiles in pure Python.
+https://github.com/GeospatialPython/pyshp
 
 Steps:
 1. Put all the relevant files of the 1st shape in the location: "shapefiles/shape_a”
 2. Put all the relevant files of the 2nd shape in the location: "shapefiles/shape_b”
 3. Open main.py
-4. Modify line 110 (the 1st shape) and line 167 (the 2nd shape) to be the same as your filename
+4. Modify line 110 (the 1st shape) and line 167 (the 2nd shape) to be the name of your file
 5. Press F5 to run the script
 6. The output file is “new_xy.data” storing the x and y coordinate of the shape after performing 2D affine transformation
 
@@ -23,3 +24,4 @@ Notes:
 1. The two shapes must be separately stored in .shp file
 2. The distance between each adjacent sample vertices can be changed at line 125 (the 1st shape) and line 181 (the 2nd shape). The default is set as 1.
 3. The name of output file (storing the x & y coordinates of the shape after coordinate transformation) can be modified at Line 332.
+4. Changing location path is not recommended.
